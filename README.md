@@ -57,6 +57,16 @@ Main challenge: Finding reliable data about different career paths, including pe
 | Professional profiles | Skills and qualifications of people already working in similar positions. LinkedIn |
 | User feedback (future) | Job search experiences, career changes and employment results |
 
+AI methods that could be used
+
+- **NLP / LLM:** Analyse career stories and identify skills, experience and career steps.
+- **Semantic similarity:** Find matching and transferable skills across different jobs and industries.
+- **Nearest neighbours:** Find people with similar education, experience, language skills and backgrounds.
+- **Statistical analysis:** Identify common career paths and employment outcomes.
+- **Skill-gap analysis:** Compare user skills with job requirements and suggest areas for improvement.
+- **Career recommendations:** Suggest career options based on job opportunities, required skills, learning time and costs.
+- **Explainable AI:** Show why each career path is recommended.
+  
 ## Challenges
 
 The main challenge is limited data - finding reliable career histories, including people who are still looking for work. Online profiles often show only successful careers and don't include periods of unemployment. And there are some more:
