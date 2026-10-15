@@ -8,7 +8,7 @@ Final project for the Building AI course
 
 ## Summary
 
-Career Integrator is an AI-based career planning assistant for international professionals entering Sweden's labour market. It analyzes professional profiles and comparable career journeys to suggest realistic next steps, alternative career paths, and skills to develop.
+Career Integrator is an AI-based career planning assistant for international professionals entering Nordic's labour market. It analyzes professional profiles and comparable career journeys to suggest realistic next steps, alternative career paths, and skills to develop.
 
 ## Background
 
