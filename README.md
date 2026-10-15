@@ -20,7 +20,7 @@ Existing tools offer fragmented information and rarely provide clear, personalis
 - **Overlooked skills:** Job searches often miss useful skills gained in other roles or countries.
 - **Uncertain choices:** It's hard to know which skills to develop and how much time and money to invest.
 - **Scattered information:** Job opportunities, market trends and training options are spread across different platforms.
-- **Unclear qualifications:** Professionals may have the right skills but struggle to prove them to Swedish employers.
+- **Unclear qualifications:** Professionals may have the right skills but struggle to prove them to Nordic employers.
 - **Language barriers:** Nordic languages requirements vary by profession, and language courses may not provide enough skills for work.
 
 ## How is it used?
