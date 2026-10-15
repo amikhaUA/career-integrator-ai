@@ -12,7 +12,7 @@ Career Integrator is an AI-based career planning assistant for international pro
 
 ## Background
 
-Experienced professionals relocating to a new country often struggle to translate their skills and qualifications into local job opportunities. Language barriers, unfamiliar hiring practices, and limited professional networks add further challenges.
+Experienced professionals relocating to a new country often struggle to translate their skills and qualifications into local job opportunities. Language barriers, unfamiliar hiring practices, and limited professional networks add further challenges. Inspired by my own relocation to Sweden and the experiences of other international professionals, I wanted to help skilled people understand the local job market and find realistic career paths that build on their previous experience.
 
 Existing tools offer fragmented information and rarely provide clear, personalised career paths based on individual experience and local labour-market conditions.
 
@@ -23,7 +23,6 @@ Existing tools offer fragmented information and rarely provide clear, personalis
 - **Unclear qualifications:** Professionals may have the right skills but struggle to prove them to Swedish employers.
 - **Language barriers:** Nordic languages requirements vary by profession, and language courses may not provide enough skills for work.
 
-
 ## How is it used?
 
 A user visits Career Integrator to plan their career after moving to new region. 
@@ -31,7 +30,7 @@ Example of task: “I want to find a job in my profession.”
 
 The process includes:
 
-1. **Create a profile:** The user shares their education, work experience, skills, interests, language level and career goals.
+1. **Create a profile:** The user shares their education, work experience, skills, interests, psychological portrait based on approved methods ( like Holland's RIASEC Model), language level and career goals.
 2. **Explore the job market:** AI analyses job vacancies, required skills and profiles of people already working in similar roles.
 3. **Find similar career stories:** AI identifies how people with similar backgrounds found jobs and developed their careers in Sweden.
 4. **Compare outcomes:** The system shows common career paths and employment results, including how long finding a job took, when reliable data are available.
@@ -41,55 +40,46 @@ The process includes:
 
 The AI provides recommendations based on available evidence, but the final decision always belongs to the user.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+<img src="Career%20Journey%20to%20Success.png" width="600" alt="Career Integrator - Career Path">
 
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+## Potential Data sources and AI methods
 
-| Syntax      | Description |
+Main challenge: Finding reliable data about different career paths, including people who are still looking for work.
+
+| Source      | Description |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| User information      |  Education, work experience, skills, languages and career goals|
+| Psychological portrait | Online based free tests like Holland's RIASEC Model |
+| Job market data | Vacancies, job requirements and market trends from Arbetsförmedlingen and Statistics Sweden (SCB) |
+| State support programs | open support programs that illustrate labor market demand (such as Vuxenutbildning) |
+| Career histories | Real career paths from LinkedIn and other sources, where access is permitted |
+| Professional profiles | Skills and qualifications of people already working in similar positions. LinkedIn |
+| User feedback (future) | Job search experiences, career changes and employment results |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The main challenge is limited data - finding reliable career histories, including people who are still looking for work. Online profiles often show only successful careers and don't include periods of unemployment. And there are some more:
+
+- **Privacy:** Personal information must be protected and follow GDPR rules.
+- **Uncertain results:** Past career stories cannot guarantee future success.
+- **AI accuracy:** The system must test which skills and qualifications really matter for different jobs.
+- **Fairness:** AI should avoid discrimination based on age, gender or background.
+- **Time and costs:** Training prices and learning time may vary.
+- **AI limitations:** The tool cannot guarantee employment or replace a career advisor.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+1. **Prototype:** Build a simple Python/kNN model using synthetic career histories to compare similar profiles, career outcomes and skill gaps.
+2. **Real-world validation:** Find legally accessible Swedish labour-market and career-path data; test accuracy, fairness and usefulness with users and career advisers.
+3. **Personal career companion:** Add progress tracking, updated job-market insights, and suggestions for learning and career-plan adjustments.
+4. **Scale up:** Explore cooperation with Arbetsförmedlingen and adult education providers, then expand to other user groups.
 
+Further work requires data access, Python/ML and evaluation skills, and privacy-aware product design.
 
 ## Acknowledgments
+Sources and projects that contributed to the development of this topic.
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+1. A personal project focused on career guidance for teenagers.
+2. A professional career guidance platform: [Magellano](https://magellano.giuntipsy.com/uk/).
+3. A US government career development resource: [O*NET OnLine](https://www.onetonline.org/).
